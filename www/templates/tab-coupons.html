@@ -1,0 +1,18 @@
+<ion-view view-title="Coupons">
+  <ion-content>
+    <ion-list>
+      <ion-item class="item-remove-animate item-avatar item-icon-right" ng-repeat="coupon in coupons" type="item-text-wrap">
+        
+        <h2>{{coupon.name}}</h2>
+        <p>{{coupon.dueDate}}</p>
+        <p>{{coupon.discountAmount}} Off {{coupon.discountProduct}}</p>
+
+        <i class="icon ion-chevron-right icon-accessory"></i>
+
+        <ion-option-button class="button-assertive" ng-click="remove(coupon)">
+          Delete
+        </ion-option-button>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>
