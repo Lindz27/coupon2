@@ -21,4 +21,8 @@ angular.module('starter.controllers', [])
   $scope.settings = {
     enableFriends: true
   };
+})
+
+.controller('FormCtrl', function($scope) {
+
 });
