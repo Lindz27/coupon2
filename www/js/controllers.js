@@ -1,4 +1,5 @@
-angular.module('starter.controllers', [])
+angular.module('starter.controllers', ['ui.rCalendar'])
+// angular.module('MyApp', ['ui.rCalendar'])
 
 .controller('DashCtrl', function($scope) {})
 
